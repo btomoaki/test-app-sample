@@ -16,3 +16,9 @@ tutorial:
   client:
     duration: 10000
 
+web_test:
+  sleep:
+    duretion_sec: 10
+    mq:
+      queue:
+        name: test
