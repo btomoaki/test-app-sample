@@ -13,8 +13,6 @@ public class GetMessageParams {
     }
 
     public boolean isEmpty() {
-        System.out.println("hoge:" + (this.count == 0) + ", aa:" + this.count);
-
         return this.count == 0;
     }
 
